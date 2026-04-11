@@ -1,0 +1,10 @@
+FROM:centos
+WORKDIR:/app
+#run http service at foreground
+
+CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
+
+#copy file inside container local file
+
+COPY index.html /var/www/html/index.html
+
