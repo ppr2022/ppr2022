@@ -22,6 +22,6 @@ ADD https://raw.githubusercontent.com/docker-library/hello-world/master/hello.c 
 
 #Create Environments inside docker
 
-ENV devops "I am Partha"
+ENV devops "I"
 
 ENV newvar=amit
